@@ -40,13 +40,13 @@
     height: 130vh;
 }
 
-.welcome, .lab-text {
+.welcome div, .lab-text div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: calc(3vw + 3vh);
-    font-family: 'Cascadia Mono ExtraBold', 'sans-serif';
+    font-family: 'Cascadia Mono Extrabold', ''Poppins Bold',Arial, Helvetica, sans-serif';
 }
 
 .lab-text {
@@ -73,7 +73,7 @@
     border: 0.3vw solid var(--theme-color);
     border-radius: 0.7vw;
     transition: background-color 0.3s, border-color 0.3s;
-    font-family: 'Cascadia Mono ExtraBold', sans-serif;
+    font-family: 'Cascadia Mono Extrabold', 'Poppins Bold',Arial, Helvetica, sans-serif;
 }
 .button:hover {
     background-color: #3598b9;
@@ -107,7 +107,7 @@
     padding: 1vw;
     border-radius: 0.7vw;
     font-size: calc(3vw + 3vh);
-    font-family: 'Cascadia Mono ExtraBold', sans-serif;
+    font-family: 'Cascadia Mono Extrabold', 'Poppins Bold',Arial, Helvetica, sans-serif;
     margin-top: 10vh;
 }
 
@@ -120,14 +120,14 @@
 }
 .card h3 {
     font-size: calc(1.3vw + 1.3vh);
-    font-family: 'Poppins Semibold', sans-serif;
+    font-family: 'Poppins Semibold', 'Poppins Bold',Arial, Helvetica, sans-serif;
     margin: auto;
     text-align: left;
 }
 .card p {
     font-size: calc(1.1vw + 1.1vh);
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
 
 .study-card {
@@ -176,7 +176,7 @@
 .study-card p {
     margin: 0;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
 .study-card-text {
     display: flex;
@@ -216,7 +216,7 @@
     padding: 1vw;
     border-radius: 0.5vw;
     font-size: calc(1vw + 3vh);
-    font-family: 'Cascadia Mono ExtraBold', sans-serif;
+    font-family: 'Cascadia Mono Extrabold', 'Poppins Bold',Arial, Helvetica, sans-serif;
 }
 .section3-content p {
     color: white;
@@ -225,7 +225,7 @@
     border-radius: 2px;
     font-size: calc(0.75vw + 2vh);
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
 
 
@@ -253,7 +253,7 @@
     padding: 2vw;
     margin-bottom: 8vh;
     font-size: calc(3vw + 3vh);
-    font-family: 'Cascadia Mono ExtraBold', sans-serif;
+    font-family: 'Cascadia Mono Extrabold', 'Poppins Bold',Arial, Helvetica, sans-serif;
 }
 
 
@@ -296,14 +296,14 @@
     margin: 0vw 0vw;
 }
 .assistant-card h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
     line-height: 1.2;
     font-size: clamp(1.3vw, calc(1vw + 1.6vh), calc(5vw + 5vh));
     width: 200%;
 }
 .assistant-card h4 {
     font-size: clamp(1vw, calc(0.6vw + 1vh), calc(5vw + 5vh));
-    font-family: 'Poppins Light', sans-serif;
+    font-family: 'Poppins Light', 'Poppins Bold',Arial, Helvetica, sans-serif;
     margin-top: 0.3vw;
     margin-bottom: 1vw;
     width: 200%;
