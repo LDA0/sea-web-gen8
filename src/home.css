@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
     font-size: calc(3vw + 3vh);
-    font-family: 'Cascadia Mono ExtraBold', sans-serif;
+    font-family: 'Cascadia Mono ExtraBold', 'sans-serif';
 }
 
 .lab-text {
