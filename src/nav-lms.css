@@ -115,7 +115,7 @@ main {
 }
 @media screen and (orientation:portrait) {
     main {
-        padding: 4vh 4vw 10vh 5vw;
+        padding: 4vh 5vw 10vh 5vw;
         margin: 0;
         left: 0;
         --width-main: 90vw;
