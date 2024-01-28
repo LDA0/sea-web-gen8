@@ -5,9 +5,9 @@ body{
 main {
     position: relative;
     top: 0;
-    --width-main: 82vw;
+    --width-main: 81vw;
     width: var(--width-main);
-    padding: 3vh 4.8vw 3vh 12vw;
+    padding: 3vh 4.8vw 3vh 13vw;
     font-family: 'Poppins';
     font-style: normal;
     transition: 0.5s ease-in;
@@ -115,7 +115,7 @@ main {
 }
 @media screen and (orientation:portrait) {
     main {
-        padding: 4vh 4vw 10vh 6vw;
+        padding: 4vh 4vw 10vh 5vw;
         margin: 0;
         left: 0;
         --width-main: 90vw;
