@@ -1,13 +1,13 @@
 body{
     margin: 0;
-
+    overflow-x: hidden;
 }
 main {
     position: relative;
     top: 0;
-    --width-main: 81vw;
+    --width-main: 84vw;
     width: var(--width-main);
-    padding: 3vh 4.8vw 3vh 13vw;
+    padding: 3vh 4vw 5.35vh 12vw;
     font-family: 'Poppins';
     font-style: normal;
     transition: 0.5s ease-in;
